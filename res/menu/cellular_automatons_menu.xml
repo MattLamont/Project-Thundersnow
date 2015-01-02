@@ -1,0 +1,33 @@
+ <menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/color_picker"
+        android:enabled="true"
+        android:icon="@drawable/ic_color_picker"
+        android:menuCategory="container"
+        android:showAsAction="ifRoom"
+        android:title="Color Picker"
+        android:visible="true">
+    </item>
+    
+     <item
+        android:id="@+id/resolution_picker"
+        android:enabled="true"
+        android:icon="@drawable/ic_resolution_picker"
+        android:menuCategory="container"
+        android:showAsAction="ifRoom"
+        android:title="Resolution Picker"
+        android:visible="true">
+    </item>
+    
+    <item 
+        android:id="@+id/fullscreen"
+        android:enabled="true"
+        android:icon="@drawable/fullscreen_icon"
+        android:menuCategory="container"
+        android:showAsAction="always"
+        android:title="Fullscreen"
+        android:visible="false">
+    </item>
+    
+</menu>

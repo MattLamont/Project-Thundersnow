@@ -1,0 +1,10 @@
+
+
+
+<resources>
+    <declare-styleable name="GenerateView">
+        <attr name="android:text"/>
+        <attr name="android:textColor"/>            
+        <attr name="extraInformation" format="string" />
+    </declare-styleable>
+</resources>

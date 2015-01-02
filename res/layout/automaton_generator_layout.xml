@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:isScrollContainer="true"
+    android:scrollbars="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/black_background"
+        android:orientation="vertical"
+        android:overScrollMode="ifContentScrolls" >
+
+        <TextView
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:ems="10"
+            android:text="Rule 1"
+            android:textColor="#ffffff"
+            android:typeface="normal" >
+
+            <requestFocus android:layout_width="wrap_content" />
+
+        </TextView>
+ 
+        <ImageView
+            android:id="@+id/rule1picture"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/editText1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/gen_rule1"/>  
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rule1picture" >
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/radioGroup1"
+            android:ems="10"
+            android:text="Rule 2"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/rule2picture"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/editText2"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/gen_rule2" /> 
+
+        <TextView
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rule2picture"
+            android:ems="10"
+            android:text="Rule 3"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/rule3picture"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/editText3"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/gen_rule3" />
+
+        <TextView
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rule3picture"
+            android:ems="10"
+            android:text="Rule 4"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/rule4picture"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/editText4"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/gen_rule4" />
+
+        <TextView
+            android:id="@+id/editText5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rule4picture"
+            android:ems="10"
+            android:text="Rule 5"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/rule5picture"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/editText5"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/gen_rule5" />
+
+        <TextView
+            android:id="@+id/editText6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rule5picture"
+            android:ems="10"
+            android:text="Rule 6"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/rule6picture"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/editText6"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/gen_rule6" />
+
+        <TextView
+            android:id="@+id/editText7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rule6picture"
+            android:ems="10"
+            android:text="Rule 7"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/rule7picture"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/editText7"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/gen_rule7" />
+
+        <TextView
+            android:id="@+id/editText8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rule7picture"
+            android:ems="10"
+            android:text="Rule 8"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/rule8picture"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/editText8"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/gen_rule8" />
+        
+        <Button
+            android:id="@+id/generator_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rule8picture"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="GENERATE AUTOMATON"
+            android:textColor="#000000" />
+		
+		<RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/rule1picture"
+            android:layout_marginBottom="19dp"
+            android:layout_marginLeft="48dp"
+            android:layout_toRightOf="@+id/rule1picture"
+            android:text="Set to One"
+            android:textColor="#ffffff" />
+        
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/rule2picture"
+            android:layout_marginBottom="19dp"
+            android:layout_marginLeft="48dp"
+            android:layout_toRightOf="@+id/rule2picture"
+            android:text="Set to One"
+            android:textColor="#ffffff" />
+        
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/rule3picture"
+            android:layout_marginBottom="19dp"
+            android:layout_marginLeft="48dp"
+            android:layout_toRightOf="@+id/rule3picture"
+            android:text="Set to One"
+            android:textColor="#ffffff" />
+        
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/rule4picture"
+            android:layout_marginBottom="19dp"
+            android:layout_marginLeft="48dp"
+            android:layout_toRightOf="@+id/rule4picture"
+            android:text="Set to One"
+            android:textColor="#ffffff" />
+        
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/rule5picture"
+            android:layout_marginBottom="19dp"
+            android:layout_marginLeft="48dp"
+            android:layout_toRightOf="@+id/rule5picture"
+            android:text="Set to One"
+            android:textColor="#ffffff" />
+        
+        <RadioButton
+            android:id="@+id/radioButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/rule6picture"
+            android:layout_marginBottom="19dp"
+            android:layout_marginLeft="48dp"
+            android:layout_toRightOf="@+id/rule6picture"
+            android:text="Set to One"
+            android:textColor="#ffffff" />
+        
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/rule7picture"
+            android:layout_marginBottom="19dp"
+            android:layout_marginLeft="48dp"
+            android:layout_toRightOf="@+id/rule7picture"
+            android:text="Set to One"
+            android:textColor="#ffffff" />
+        
+        <RadioButton
+            android:id="@+id/radioButton8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/rule8picture"
+            android:layout_marginBottom="19dp"
+            android:layout_marginLeft="48dp"
+            android:layout_toRightOf="@+id/rule8picture"
+            android:text="Set to One"
+            android:textColor="#ffffff" />
+        
+    </RelativeLayout>
+
+</ScrollView>

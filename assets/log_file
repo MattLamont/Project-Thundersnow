@@ -1,0 +1,47 @@
+
+
+/////////////////////UPDATE LOG/////////////////////////
+
+August 12, 2013
+	-developed linear layout 
+	-filled with crude buttons
+	-attempted quiltview
+	-optimized some drawable/resource pictures
+
+August 13, 2013
+	-Set main activity to relative layout
+	-set buttons to tiles
+	-created log_file
+	-created icons for tiled buttons
+	
+August 15, 2013
+	-created automaton generator class
+	-developed linear layout for the generator
+	-incorporates radio buttons to select boolean
+	 for automaton value
+	-allows vertical scrolling to incorporate all
+	 buttons and rules
+	-rule pictures not yet created
+	
+August 16, 2013
+	-created dedicated xml file for UpdateLog
+	-added scroll view for additional entries
+	-removed UpdateLog's linear layout
+	
+August 18, 2013
+	-created activity for automaton generator
+	-integrated generator into generateview 
+	-changed all other automatons to fit the
+	 new format of generateview
+	-allows boolean[] to hold truth values
+	-boolean[] passed to generateview
+	-this allows adaptability of code to all
+	 elementary cellular automatons
+	
+August 30, 2013
+	-created splash screen
+	-incorporates main app picture
+	-removed taskbar from many activities
+	-altered main screen buttons
+	-created activities for functions
+	 still under construction

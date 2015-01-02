@@ -1,0 +1,40 @@
+
+This application is currently being developed by Matt 
+Lamont, to act as a means of practice and learning
+applicable to by major of study. Currently this 
+application's main functions are:
+
+	1. ELEMENTARY CELLULAR AUTOMATON VIEWER
+	
+		- 17 preprogrammed automatons
+		- adjustable cell color
+		- adjustable cell size
+	
+	2. ELEMENTARY CELLULAR AUTOMATON GENERATOR
+	
+		- create any elementary automaton
+		- radio button based GUI
+		- adjustable cell color
+		- adjustable cell size
+	
+	3. TOTALISTIC AUTOMATON VIEWER
+	
+		- displays preprogrammed totalistic automatons
+		- adjustable cell size
+	
+	4. PHOTO GRID VIEWER
+	
+		- custom view group
+		- designed for low API version
+		- filled with saved photos
+		- fullscreen viewer
+		- focusable pictures
+		- scrollable view
+	
+
+	
+	
+	
+	
+	
+	
